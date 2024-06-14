@@ -10,17 +10,13 @@ body {
 
 .navbar {
     background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    padding: 1rem;
 }
 
 .navbar-container {
-    
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
 }
 
 .navbar-logo {
@@ -46,7 +42,23 @@ body {
 }
 
 .navbar-link:hover {
-    background-color: #555;
+    background-color: #575757;
     border-radius: 5px;
 }
 
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon {
+    color: #fff;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-icon:hover {
+    color: #ddd;
+}
